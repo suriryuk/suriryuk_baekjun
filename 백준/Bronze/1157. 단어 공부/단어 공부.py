@@ -11,7 +11,7 @@ for i in range(65, 91):
         if count > many["count"]:
             many["alphabet"] = chr(i)
             many["count"] = count
-            
+
 if big_count.count(many["count"]) > 1:
     print("?")
 else:
